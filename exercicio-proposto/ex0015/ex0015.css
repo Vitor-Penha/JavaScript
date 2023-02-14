@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to top, blue, cyan);
+    width: 100vw;
+    height: 100vh;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 5px;
+}
+section{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+}
+/*#ini{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}*/
+/*div{
+    padding-left: 5px;
+}*/
+div{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+input{
+    padding: 2px;
+    margin: 5px;
+}
+#fim{
+    margin-left: 16px;
+}
+#passo{
+    margin-left: -1px;
+}
+#contar{
+    padding: 4px;
+    margin: 10px;
+    margin-left: 34px;
+}
+label{
+    padding: 30px;
+    margin: 5px;
+}
+p{
+    margin-left: 35px;
+}
+footer{
+    text-align: center;
+}

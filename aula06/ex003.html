@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa</title>
+    <style>
+        body{
+            background-color: rgb(121, 121, 196);
+            color: white;
+            font: normal 20pt Arial ;
+        }
+        h1{
+            color: rgb(209, 209, 3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <p>Essa é a parte de conteúdo</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        s = n1 + n2
+        window.alert('A soma dos números é: '+s) // o símbolo de adição aqui "+" está indicando uma concateração
+        // (number "+" number) --> para adição
+        // (string "+"" string) --> para concatenação
+        //Naturalmente o JavaScript vai entender que tudo o que estiver dentro do window.prompt vai ser do tipo string, e para converter uma string para number é só fazer Number.parseInt(n) (para um número inteiro) ou Number.parseFloat(n) se o valor a se converter for transformado para um número real, e podemos fazer Number(n) apenas, assim o JavaScript ficará responsável de indentificar se o número é um inteito ou real
+        //Caso a conversão a ser feita seja de uma number para uma string podemos fazer String(n), pode ser n.toString() 
+    </script>
+</body>
+</html>
